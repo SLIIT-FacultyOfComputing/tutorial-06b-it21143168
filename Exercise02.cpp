@@ -6,6 +6,7 @@ int main() {
   
    // 1. Create a Box type object called box1
   
+  Box box1;
   
    // ======= DO NOT CHANGE THE INPUT ===========
    int height, length, width;
@@ -19,6 +20,10 @@ int main() {
   
    // 2. Use setters assign height, length, width throw
   
+  box1.setLength(length);
+  box1.setHeight(height);
+  box1.setWidth(width);
+
    // === DO NOT CHANGE THE OUTPUT =============
    cout << "Box Height " << box1.getHeight() << endl;
    cout << "Box Length " << box1.getLength() << endl;
@@ -27,4 +32,5 @@ int main() {
    // ==========================================
       return 0;
 }
+
 
